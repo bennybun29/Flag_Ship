@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <!-- Country and Capital Pairs -->
+        <string name="app_name">FlagShip</string>
+
+        <string name="country1">United States</string>
+        <string name="capital1">Washington, D.C.</string>
+
+        <string name="country2">Canada</string>
+        <string name="capital2">Ottawa</string>
+
+        <string name="country3">United Kingdom</string>
+        <string name="capital3">London</string>
+
+        <string name="country4">Australia</string>
+        <string name="capital4">Canberra</string>
+
+        <string name="country5">India</string>
+        <string name="capital5">New Delhi</string>
+
+        <string name="country6">Germany</string>
+        <string name="capital6">Berlin</string>
+
+        <string name="country7">France</string>
+        <string name="capital7">Paris</string>
+
+        <string name="country8">Italy</string>
+        <string name="capital8">Rome</string>
+
+        <string name="country9">Japan</string>
+        <string name="capital9">Tokyo</string>
+
+        <string name="country10">Brazil</string>
+        <string name="capital10">Brasília</string>
+
+        <string name="country11">Russia</string>
+        <string name="capital11">Moscow</string>
+
+        <string name="country12">China</string>
+        <string name="capital12">Beijing</string>
+
+        <string name="country13">South Africa</string>
+        <string name="capital13">Pretoria</string>
+
+        <string name="country14">Mexico</string>
+        <string name="capital14">Mexico City</string>
+
+        <string name="country15">Argentina</string>
+        <string name="capital15">Buenos Aires</string>
+
+        <string name="country16">Saudi Arabia</string>
+        <string name="capital16">Riyadh</string>
+
+        <string name="country17">South Korea</string>
+        <string name="capital17">Seoul</string>
+
+        <string name="country18">Philippines</string>
+        <string name="capital18">Manila</string>
+
+        <string name="country19">Turkey</string>
+        <string name="capital19">Ankara</string>
+
+        <string name="country20">Indonesia</string>
+        <string name="capital20">Jakarta</string>
+    </resources>
