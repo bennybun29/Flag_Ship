@@ -4,12 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#93e4f7"
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/header"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/header"
         android:src="@drawable/flag_ship_header"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,11 +21,13 @@
         android:layout_height="0dp"
         android:id="@+id/flaglistview"
         android:scrollbars="vertical"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         app:layout_constraintTop_toBottomOf="@id/header"
         app:layout_constraintBottom_toBottomOf="parent"
         tools:listitem="@layout/flag_list"
-        android:divider="@color/white"
+        android:divider="#93e4f7"
         android:dividerHeight="10sp"
 
         />

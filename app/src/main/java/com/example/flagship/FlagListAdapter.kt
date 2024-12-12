@@ -35,7 +35,6 @@ ArrayAdapter<FlagListData?>(context, R.layout.flag_list, dataArrayList!!){
     }
 
     private fun showImageZoomDialog(imageResId: Int) {
-        // Create a dialog to show the zoomed image
         val dialog = Dialog(context)
         dialog.setContentView(ImageView(context).apply {
             setImageResource(imageResId)
@@ -46,9 +45,19 @@ ArrayAdapter<FlagListData?>(context, R.layout.flag_list, dataArrayList!!){
                 ViewGroup.LayoutParams.MATCH_PARENT
             )
             setBackgroundColor(android.graphics.Color.BLACK)
-            setOnClickListener { dialog.dismiss() } // Dismiss dialog when clicked
+
+            // Double the image size by adjusting the layout size
+            val currentWidth = this.layoutParams.width
+            val currentHeight = this.layoutParams.height
+            layoutParams = ViewGroup.LayoutParams(
+                currentWidth * 2,
+                currentHeight * 2
+            )
+
+            setOnClickListener { dialog.dismiss() }
         })
         dialog.show()
     }
+
 
 }

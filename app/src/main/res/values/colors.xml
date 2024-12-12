@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="citrus">#E78D3D</color>
+    <color name="richwood">#786C3B</color>
+    <color name="teal">#34C759</color>
 </resources>
